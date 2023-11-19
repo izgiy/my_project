@@ -1,0 +1,127 @@
+*
+{
+margin: 0px 0px;
+}
+body{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+header
+{
+max-width: 1000px;
+margin: 0px auto;
+background: rgb(31, 31, 110);
+
+}
+.menu{
+color: rgb(255, 255, 255);
+font-size: 2em;
+text-align: center;
+}
+a
+{
+text-decoration: none;
+color: white;
+}
+a:hover{
+color: rgb(233, 245, 63);
+}
+a:active
+{
+color: red;
+}
+li
+{
+text-decoration-style: none;
+list-style-type: none;
+display: inline-block;
+padding: 2%;
+}
+main
+{
+display: grid;
+grid-template-columns: 70% 30%;
+}
+.info
+{
+background: rgb(255, 255, 255);
+}
+.sidebar
+{
+background: rgb(197, 189, 178);
+}
+main
+{
+margin: 0px auto;
+max-width: 1000px;
+}
+h1{text-align: center;
+font-size: 3em;
+padding: 2%;}
+p
+{
+text-align: left;
+font-size: 200%;
+padding: 2%;
+}
+img
+{
+width: 50%;
+border-radius: 50px;
+text-shadow: 0px 0px 3px black;
+padding: 5%;
+float: left;
+}
+footer
+{margin: 0px auto;
+max-width: 1000px;
+background: rgb(136, 48, 48);
+}
+input[type="text"]
+{display: block;
+max-width: 90%;
+margin: 0px auto;
+border:solid 0px;
+height: 3%;
+text-align: center;
+border-radius: 40px;
+}
+.button{
+margin: 10% 0px 0px 0px;
+}
+button[type="submit"]
+{cursor: pointer;
+border: solid 0px;
+display: block;
+background: red;
+color: white;
+padding: 5%;
+margin: 0px auto;
+box-shadow: 3px 3px 3px black;
+border-radius: 10%;
+}
+button:active
+{
+box-shadow: 0px 0px 0px black;
+}
+
+.contact
+{
+font-size: 110%;
+display: block;
+text-align: center;
+padding: 5%;
+}
+form{
+height: 100%;
+}
+.my_post
+{color: white;
+padding: 2%;
+vertical-align: middle;
+font-size: 150%;
+}
+span{display: block;}
+.my_post_mail{
+font-family: cursive;
+text-decoration:underline;}
