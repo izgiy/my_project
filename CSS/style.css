@@ -11,7 +11,6 @@ header
 max-width: 1000px;
 margin: 0px auto;
 background: rgb(31, 31, 110);
-
 }
 .menu{
 color: rgb(255, 255, 255);
@@ -61,21 +60,23 @@ padding: 2%;}
 p
 {
 text-align: left;
-font-size: 200%;
+font-size: 150%;
 padding: 2%;
 }
 img
 {
 width: 50%;
 border-radius: 50px;
-text-shadow: 0px 0px 3px black;
-padding: 5%;
+
+padding: 2% 2% 2% 0%;
 float: left;
 }
-footer
-{margin: 0px auto;
-max-width: 1000px;
-background: rgb(136, 48, 48);
+.footer
+{
+    margin: 0px auto;
+    max-width: 1000px;
+    background: rgb(136, 48, 48);
+    margin-bottom: 0px;
 }
 input[type="text"]
 {display: block;
@@ -86,7 +87,8 @@ height: 3%;
 text-align: center;
 border-radius: 40px;
 }
-.button{
+.button
+{
 margin: 10% 0px 0px 0px;
 }
 button[type="submit"]
@@ -116,12 +118,53 @@ form{
 height: 100%;
 }
 .my_post
-{color: white;
+{
+color: white;
 padding: 2%;
 vertical-align: middle;
 font-size: 150%;
 }
 span{display: block;}
-.my_post_mail{
+.my_post_mail
+{
 font-family: cursive;
-text-decoration:underline;}
+text-decoration:underline;
+}
+.audio
+{
+margin: 0px auto;
+display: inline;
+}
+.audio_name{
+text-align: center;
+}
+audio
+{
+padding: 2%;
+}
+@media (max-width: 600px)
+{
+main{display: inline-block;}
+img{
+float: none;
+width: 100%;
+border-radius:  0px;
+margin: 0px auto;
+}
+header
+{
+display: block;
+}
+.button
+{
+padding: 0px 2% 2% 0px;}
+audio
+{
+margin: 0px auto;
+}
+.audio_name
+{
+padding: 2%;
+text-align: left;
+}
+}
